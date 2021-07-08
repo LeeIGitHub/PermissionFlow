@@ -29,7 +29,7 @@ class PermissionTestActivity : AppCompatActivity() {
 * 第三步
 
 ```
-permissionFlow
+    permissionFlow
 		.withPermission(Manifest.permission.CAMERA)
 		.showRationale { callback ->
 			//最好给出需要权限的理由，也可以什么都不做
