@@ -190,7 +190,7 @@ class PermissionFlow(val activity: ComponentActivity) {
 
         //展示请求权限的理由
         private fun showPermissionRationale() {
-            if (permissionUiFeedback == null && permissionUiFeedback!!.showPermissionRationaleCallback == null) {
+            if (permissionUiFeedback == null || permissionUiFeedback!!.showPermissionRationaleCallback == null) {
                 //如果没写，则直接执行，不过不推荐
                 requestPermission()
             } else {
