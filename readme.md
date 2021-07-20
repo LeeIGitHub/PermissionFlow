@@ -17,14 +17,14 @@
 implementation 'io.github.leeigithub:permissionflow:0.0.1'
 ```
 
-* 第二部
+* 第二步
 
 ```
 <!--    在AndroidManifest.xml里添加你需要的权限   -->
 <uses-permission android:name="android.permission.CAMERA" />
 ```
 
-* 第二部
+* 第三步
 
 ```
 class PermissionTestActivity : AppCompatActivity() {
