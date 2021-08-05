@@ -14,7 +14,7 @@
 * 第一步
 
 ```
-implementation 'io.github.leeigithub:permissionflow:0.0.1'
+implementation 'io.github.leeigithub:permissionflow:0.0.2'
 ```
 
 * 第二步
